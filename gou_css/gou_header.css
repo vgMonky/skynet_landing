@@ -1,0 +1,79 @@
+.gou_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 10vw 2rem;
+    position: sticky top;
+
+}
+
+.gou_header .logo{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    margin-right: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.gou_header .fa-bars{
+    color: white;
+    display: none;
+}
+
+.gou_header .nav-bar{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    
+}
+
+.gou_header .nav-bar a,
+.gou_header .nav-bar a:visited{
+    font-size: 0.8rem;
+    text-decoration: none;
+
+    border-radius: 15px ;
+    padding: 0 1.5rem;
+    transition: 0.4s;
+}
+.gou_header .nav-bar a:hover,
+.gou_header .nav-bar a:focus{
+
+color:  rgb(150, 23, 23)
+
+}
+
+
+
+
+
+@media screen and (max-width: 650px) {
+    .gou_header .nav-bar {
+      display: none;
+      position: absolute;
+      top: 3.7rem;
+      right: -2rem;
+      width: 100%;
+      text-align: right;
+      margin-right: 6rem;
+    }
+  
+    .gou_header .nav-bar.responsive {
+      display: block;
+    }
+  
+    .gou_header .nav-bar a {
+      display: block;
+      padding: 0.6rem;
+    }
+  
+    .gou_header .fa-bars {
+      display: block;
+      z-index: 1;
+    }
+    .gou_header .fa-bars:hover,
+    .gou_header .fa-bars:focus{
+        color: rgb(150, 23, 23);
+      }
+  }

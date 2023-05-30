@@ -1,0 +1,77 @@
+.gou_title{
+    text-align: center;
+    padding: 2rem;
+    min-height: 80vh;
+    margin-bottom: 1rem;
+    margin-top: 4rem;
+
+}
+
+.gou_title h1{
+    font-size: 4rem;
+    padding: 1rem 4rem 1rem;
+    line-height: 5rem;
+    font-weight: 600;
+}
+
+.gou_title h2{
+    font-size: 1rem;
+    padding: 0 4rem;
+    line-height: 2rem;
+    font-weight: 300;
+    margin-bottom: 4rem;
+}
+
+.gou_title a,
+.gou_title a:visited{
+    border: 2px solid white;
+    padding: 1rem 4rem;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.6s;
+}
+
+.gou_title a:focus,
+.gou_title a:hover{
+    color: white;
+    background-color: rgb(150, 23, 23);
+    border: 1px solid black;
+    padding: 1rem 6rem;
+}
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    .gou_title h1{
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+    .gou_title h2{
+        font-size: 1rem;
+        max-width: 500px;
+        line-height: 1.5rem;
+        margin: auto;
+        margin-bottom: 4rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .gou_title {
+        margin-top: 2rem;
+        padding: 1rem 2rem 1rem;
+    }
+    .gou_title h1{
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+    .gou_title h2{
+        font-size: 1rem;
+        max-width: 500px;
+        line-height: 1.5rem;
+        margin: auto;
+        margin-bottom: 4rem;
+    }
+}

@@ -1,0 +1,119 @@
+.gou_gallery{
+    padding: 8rem 2rem 12rem;
+    
+}
+
+.gou_gallery h2{
+    text-align: center;
+
+}
+
+
+.gou_gallery .examples{
+    display: flex;
+    justify-content: center;
+    gap: 0.2rem;
+    font-size: 1.6rem;
+}
+
+.gou_gallery .examples a,
+.gou_gallery .examples a:visited{
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-align: center;
+    background-color:white;
+    text-decoration: none;
+    padding: 2rem 2rem;
+    width: 30vw;
+    height: 25rem;
+
+    transition: 0.6s;
+}
+
+.gou_gallery .examples a:nth-child(1),
+.gou_gallery .examples a:visited:nth-child(1){
+    background: url(/gou_images/midj.jpg);
+    background-size: cover;
+    background-position: center;
+
+    color:white;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+
+}
+.gou_gallery .examples a:nth-child(2),
+.gou_gallery .examples a:visited:nth-child(2){
+    background: url(/gou_images/stable.jpg);
+    background-size: cover;
+    background-position: center;
+
+    color:white;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+.gou_gallery .examples a:nth-child(3),
+.gou_gallery .examples a:visited:nth-child(3){
+    background: url(/gou_images/ink.jpg);
+    background-size: cover;
+    background-position: center;
+
+    color:white;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+.gou_gallery .examples a:nth-child(4),
+.gou_gallery .examples a:visited:nth-child(4){
+    background: url(/gou_images/anime.jpg);
+    background-size: cover;
+    background-position: center;
+
+    color:white;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+.gou_gallery .examples a:nth-child(5),
+.gou_gallery .examples a:visited:nth-child(5){
+    background: url(/gou_images/robot.jpg);
+    background-size: cover;
+    background-position: center;
+
+    color:white;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+
+
+.gou_gallery .examples a:hover,
+.gou_gallery .examples a:focus{
+    font-size: 1.6rem;
+    font-weight: 600;
+    width: 60vw;
+
+    color:rgba(255, 255, 255, 0);
+    background-color: rgba(0, 0, 0, 0);
+    background-blend-mode: darken;
+
+}
+
+.gou_gallery .link{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+
+
+@media screen and (max-width: 750px) {
+    .gou_gallery .examples{
+        flex-direction: column;
+        align-items: center;
+    }
+    .gou_gallery .examples a{
+        height: 100px;
+        width: 60vw;
+    }
+    .gou_gallery .examples a:hover,
+    .gou_gallery .examples a:focus{
+        width: 90vw;
+    }
+}

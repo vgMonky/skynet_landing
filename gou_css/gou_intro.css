@@ -1,0 +1,54 @@
+.gou_intro{
+    animation: SlowIn 2s linear;
+    text-align: center;
+    padding: 1rem;
+    background: rgb(150, 23, 23);
+    margin-top: -4rem;
+    margin-bottom: 0rem;
+}
+
+.gou_intro h2{
+    animation: SlowIn2 2s linear;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 300;
+
+}
+
+
+  @keyframes SlowIn {
+
+    0% {
+        margin-top: 0rem ;
+        margin-bottom: -4rem;
+        opacity: 0;
+        }
+
+    85% {
+        margin-top: 0rem ;
+        margin-bottom: -4rem;
+        opacity: 0;
+        }
+
+    100% {
+        margin-top: -4rem ;
+        margin-bottom: 0rem;
+        opacity: 1;
+        }
+  }
+
+  @keyframes SlowIn2 {
+
+    0% {
+        opacity: 0;
+        }
+
+    85% {
+        opacity: 0;
+        }
+
+    100% {
+        opacity: 1;
+        }
+  }
