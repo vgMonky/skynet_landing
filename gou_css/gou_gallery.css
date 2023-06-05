@@ -32,7 +32,7 @@
 
 .gou_gallery .examples a:nth-child(1),
 .gou_gallery .examples a:visited:nth-child(1){
-    background: url(/gou_images/midj.jpg);
+    background: url(../gou_images/midj.jpg);
     background-size: cover;
     background-position: center;
 
@@ -43,7 +43,7 @@
 }
 .gou_gallery .examples a:nth-child(2),
 .gou_gallery .examples a:visited:nth-child(2){
-    background: url(/gou_images/stable.jpg);
+    background: url(../gou_images/stable.jpg);
     background-size: cover;
     background-position: center;
 
@@ -53,7 +53,7 @@
 }
 .gou_gallery .examples a:nth-child(3),
 .gou_gallery .examples a:visited:nth-child(3){
-    background: url(/gou_images/ink.jpg);
+    background: url(../gou_images/ink.jpg);
     background-size: cover;
     background-position: center;
 
@@ -63,7 +63,7 @@
 }
 .gou_gallery .examples a:nth-child(4),
 .gou_gallery .examples a:visited:nth-child(4){
-    background: url(/gou_images/anime.jpg);
+    background: url(../gou_images/anime.jpg);
     background-size: cover;
     background-position: center;
 
@@ -73,7 +73,7 @@
 }
 .gou_gallery .examples a:nth-child(5),
 .gou_gallery .examples a:visited:nth-child(5){
-    background: url(/gou_images/robot.jpg);
+    background: url(../gou_images/robot.jpg);
     background-size: cover;
     background-position: center;
 

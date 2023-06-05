@@ -36,7 +36,7 @@ body{
 
 .ken {
     animation: kenny 40s linear;
-    background-image: url(/gou_images/background.png);
+    background-image: url(../gou_images/background.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
