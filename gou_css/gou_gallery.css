@@ -110,10 +110,11 @@
     }
     .gou_gallery .examples a{
         height: 100px;
-        width: 60vw;
+        width: 80vw;
     }
     .gou_gallery .examples a:hover,
     .gou_gallery .examples a:focus{
         width: 90vw;
+        height: 25vh;
     }
 }

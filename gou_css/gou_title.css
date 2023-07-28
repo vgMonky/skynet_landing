@@ -1,22 +1,21 @@
 .gou_title{
     text-align: center;
     padding: 2rem;
-    min-height: 80vh;
+    min-height: 70vh;
     margin-bottom: 1rem;
     margin-top: 4rem;
-
 }
 
 .gou_title h1{
     font-size: 4rem;
-    padding: 1rem 4rem 1rem;
+    padding: 1rem 0rem;
     line-height: 5rem;
     font-weight: 600;
 }
 
 .gou_title h2{
     font-size: 1rem;
-    padding: 0 4rem;
+    padding: 0 0rem;
     line-height: 2rem;
     font-weight: 300;
     margin-bottom: 4rem;
@@ -73,5 +72,9 @@
         line-height: 1.5rem;
         margin: auto;
         margin-bottom: 4rem;
+    }
+    .gou_title a:focus,
+    .gou_title a:hover{
+        padding: 1rem 4rem;
     }
 }

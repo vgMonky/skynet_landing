@@ -17,7 +17,11 @@
     margin: 4rem 0 2rem;
 }
 
-
+.gou_contact .links{
+    display: flex;
+    justify-content: center ;
+    gap: 10px;
+}
 
 
 
@@ -41,3 +45,10 @@
     padding: 1rem 6rem;
 }
 
+@media screen and (max-width: 800px) {
+    .gou_contact .links{
+        flex-flow: column ;
+        
+    }
+
+}
