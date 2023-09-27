@@ -41,7 +41,8 @@
 
     color: var(--Light);
     background-color: var(--Color1);
-    border: 1px solid var(--Color1);
+    border: 2px solid var(--Color1);
+
     padding: 1rem 6rem;
 }
 
