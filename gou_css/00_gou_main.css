@@ -3,14 +3,13 @@
 
 
 /* Variables Definition */
-
-    /* Colors */
-
-
-    /* Text */
-
-
-    /* Margins */
+:root{
+  /* Colors */
+  --Color1:  rgb(34, 108, 48);;
+  --Light:  rgb(232, 232, 232);
+  --Dark:  rgb(19, 19, 19);
+  --Gray:  rgb(40, 40, 40);
+}
 
 
 
@@ -18,7 +17,7 @@
 
 /*general*/
 html{scroll-behavior: smooth;
-    background-color: rgb(0, 0, 0);
+    background-color: var(--Dark);
     background-size: cover;
 }
 *{
@@ -26,7 +25,7 @@ html{scroll-behavior: smooth;
     padding: 0;
     box-sizing: border-box;
     font-family: poppins;
-    color: white;
+    color:var(--Light);
 }
 body{
     display: flex;
@@ -41,9 +40,9 @@ body{
     background-position: center;
     height: 100vh;
     width: 100vw;
-    opacity: 0.12;
+    opacity: 0.10;
     overflow: hidden;
-    scale: 1.5;
+    scale: 1.2;
     position: fixed;
     z-index: -1;
   }
@@ -51,20 +50,20 @@ body{
   @keyframes kenny {
     
     25% {
-      opacity: 0.1;
+      opacity: 0.02;
       scale: 0.9;
     }
     50% {
-        opacity: 0.18;
-        scale: 0.6;
+        opacity: 0.08;
+        scale: 0.7;
       }
     75% {
         opacity: 0.1;
-        scale: 1.2;
+        scale: 1;
       }
     100% {
-          opacity: 0.12;
-          scale: 1.5;
+          opacity: 0.10;
+          scale: 1.2;
         }
   }
 

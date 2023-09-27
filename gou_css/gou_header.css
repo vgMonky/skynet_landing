@@ -10,14 +10,14 @@
 .gou_header .logo{
     font-size: 1.2rem;
     font-weight: 600;
-    color: white;
+    color: var(--Light);
     margin-right: 5rem;
     display: flex;
     align-items: center;
 }
 
 .gou_header .fa-bars{
-    color: white;
+    color: var(--Light);
     display: none;
 }
 
@@ -40,7 +40,7 @@
 .gou_header .nav-bar a:hover,
 .gou_header .nav-bar a:focus{
 
-color:  rgb(150, 23, 23);
+color:  var(--Color1);
 
 }
 
@@ -74,6 +74,6 @@ color:  rgb(150, 23, 23);
     }
     .gou_header .fa-bars:hover,
     .gou_header .fa-bars:focus{
-        color: rgb(150, 23, 23);
+        color: var(--Color1);
       }
   }
